@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta name="description" content="This page is not on the Double Black Electric Inc. site. Call 1-778-200-1123 or return to Home, Services, or Contact." />
+  <title>Page not found | Double Black Electric Inc.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-white.svg" />
+  <style>
+    /* Extra chrome for the 404 document only (header phone + not-found block).
+       Also add the matching rules from PATCHES.md to css/styles.css so real pages match. */
+    .nav-phone {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+    }
+    .footer__nap {
+      margin: 0 0 12px;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 0.08em;
+      font-size: 0.95rem;
+    }
+    .footer__nap a { color: #fff; }
+    .footer__nap a:hover { color: var(--accent); }
+    .not-found {
+      max-width: 640px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .not-found p { color: #bcbcbc; }
+    .not-found .hero__cta { margin-top: 28px; }
+    .not-found .not-found__phone {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.06em;
+      color: #fff;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 2px;
+    }
+    .not-found .not-found__phone:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="/" class="brand" aria-label="Double Black Electric — Home">
+        <img src="/assets/logo-white.svg" alt="Double Black Electric" class="brand__logo" />
+        <span class="brand__text">Double Black Electric</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Our Services</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="tel:+17782001123" class="nav-phone">1-778-200-1123</a></li>
+          <li><a href="/contact" class="nav-cta">Get in Touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="hero__photo" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="container">
+      <h1>Page Not Found</h1>
+      <p class="page-header__subtitle">HTTP 404 — this URL is not a page on our site</p>
+    </div>
+  </section>
+
+  <section class="section section--contact">
+    <div class="container">
+      <div class="not-found">
+        <p>
+          The address you opened is not one of our pages. It is not Home, Services, Contact,
+          or one of our service pages.
+        </p>
+        <p>
+          Call James Pearse at
+          <a class="not-found__phone" href="tel:+17782001123">1-778-200-1123</a>
+          or email
+          <a href="mailto:James@doubleblackelectric.ca">James@doubleblackelectric.ca</a>.
+        </p>
+        <div class="hero__cta">
+          <a href="/" class="btn btn--primary">Home</a>
+          <a href="/services" class="btn btn--ghost">Our Services</a>
+          <a href="/contact" class="btn btn--ghost">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer__tagline">
+        Est. 2025, Double Black Electric Inc. aims to integrate mountain culture and professional
+        electrical business into one company that serves the Sea to Sky with top tier electrical services.
+        Just as Double Black Diamond runs are known for their challenging terrain and ridden with
+        expertise, you can be confident that Double Black Electric is able to perform any task
+        with confidence and skill.
+      </p>
+      <p class="footer__nap">
+        <a href="tel:+17782001123">1-778-200-1123</a>
+        &middot;
+        <a href="mailto:James@doubleblackelectric.ca">James@doubleblackelectric.ca</a>
+      </p>
+      <div class="footer__bottom">
+        <p>&copy; <span id="year">2026</span> Double Black Electric Inc. All rights reserved.</p>
+        <nav aria-label="Footer">
+          <a href="/">Home</a>
+          <a href="/services">Our Services</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
